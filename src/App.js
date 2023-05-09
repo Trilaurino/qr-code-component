@@ -1,10 +1,10 @@
-import styleApp from '../src/App.css';
+import './App.css';
 import QrCode from "./components/QrCode";
 
 
 function App() {
   return (
-    <div className={styleApp}>
+    <div>
       <QrCode/>
     </div>
   );
